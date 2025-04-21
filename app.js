@@ -31,3 +31,39 @@
 
 
 // *************************************************** day-2 **********************************************************
+
+
+// Problem: Do numbers diye gaye hain. Batao kaunsa number bada hai.
+// const findMax = (x, y) => {
+//     if (x > y) {
+//         console.log(x, "is greater");
+//     } else {
+//         console.log(y, "is greater")
+//     }
+// }
+// findMax(9, 15)
+
+
+// Problem: Ek number diya gaya hai. Check karo ki woh prime number hai ya nahi.
+// const isPrime = (num) => {
+//     if (num < 2) return false;
+//     for (let i = 2; i < num; i++) {
+//         if (num % i === 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+// console.log(isPrime(4) ? "prime" : "not prime");
+
+
+// Problem: Ek number N diya gaya hai. 1 se leke N tak ke saare numbers print karo.
+// const oneToN = (num) => {
+//     for (let i = 1; i <= num; i++) {
+//         console.log(i)
+//     }
+// }
+// oneToN(5)
+
+
+// *************************************************** day-3 **********************************************************
