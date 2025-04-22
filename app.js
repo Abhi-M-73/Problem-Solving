@@ -66,4 +66,57 @@
 // oneToN(5)
 
 
+
+
+
 // *************************************************** day-3 **********************************************************
+
+
+
+
+// Problem: Ek number diya gaya hai, uske sabhi digits ka sum nikaalo.
+// let num = 12345;
+// let sum = 0;
+// while (num > 0) {
+//     const lastDigit = num % 10;
+//     sum += lastDigit;
+//     num = Math.floor(num / 10);
+// }
+// console.log(sum)
+
+
+
+// Problem: Ek number diya gaya hai, usko reverse karke print karo.
+// let num = 12345;
+// let rev = 0;
+// while (num > 0) {
+//     const lastDigit = num % 10;
+//     rev = rev * 10 + lastDigit;
+//     num = Math.floor(num / 10);
+// }
+// console.log(rev);
+
+
+
+// Problem: Ek number diya gaya hai.Check karo ki woh palindrome hai ya nahi. (Palindrome = reverse karne par bhi same number)
+// const checkPalindrome = (num) => {
+//     const original = num;
+//     let rev = "";
+//     while (num > 0) {
+//         const lastDigit = num % 10;
+//         rev += lastDigit;
+//         num = Math.floor(num / 10);
+//     }
+//     if (original == rev) {
+//         return "Palindrome"
+//     } else {
+//         return "Not Palindrome"
+//     }
+// }
+// console.log(checkPalindrome(131));
+
+
+
+
+
+// *************************************************** day-4 **********************************************************
