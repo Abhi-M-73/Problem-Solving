@@ -120,3 +120,46 @@
 
 
 // *************************************************** day-4 **********************************************************
+
+
+
+// Problem: Ek number diya gaya hai, usme kitne digits hain ye count karo.
+// let num = 759;
+// let count = 0;
+// while (num > 0) {
+//     num = Math.floor(num / 10);
+//     count++;
+// }
+// console.log(count);
+
+
+
+// Problem: Ek 3 - digit number diya gaya hai.Check karo ki woh Armstrong number hai ya nahi. ex- (1³ + 5³ + 3³ = 1 + 125 + 27 = 153)
+// let num = 370;
+// const original = num;
+// let sum = 0;
+// while (num > 0) {
+//     const lastDigit = num % 10;
+//     sum += Math.pow(lastDigit, 3);
+//     num = Math.floor(num / 10);
+// }
+// console.log(original === sum ? "Armstrong Number" : "Not Armstrong Number")
+
+
+
+// Problem: Do numbers diye gaye hain.Unka GCD(Greatest Common Divisor) ya HCF nikaalo. Input: 20, 28 → Output: 4
+// const findHCF = (a, b) => {
+//     let hcf = 1
+//     for (let i = 1; i <= Math.min(a, b); i++) {
+//         if (a % i === 0 && b % i === 0) {
+//             hcf = i
+//         }
+//     }
+//     return hcf
+// }
+// console.log(findHCF(20, 28))
+
+
+
+
+// *************************************************** day-5 **********************************************************
