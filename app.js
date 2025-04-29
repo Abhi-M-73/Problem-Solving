@@ -163,3 +163,53 @@
 
 
 // *************************************************** day-5 **********************************************************
+
+
+
+// Problem: Do numbers diye gaye hain.Unka LCM(Least Common Multiple) nikaalo.    Hint: LCM(a, b) = (a × b) / HCF(a, b)
+// let findLcm = (a, b) => {
+//     let hcf = 1;
+//     for (let i = 0; i < Math.min(a, b); i++) {
+//         if (a % i == 0 && b % i == 0) {
+//             hcf = i;
+//         }
+//     }
+//     let lcm = (a * b) / hcf;
+//     return lcm
+// }
+// console.log(findLcm(8, 12))
+
+
+// Problem: Ek number diya gaya hai.Usme kitne even aur odd digits hain, count karo.
+// const evenAndOdd = (num) => {
+//     let evenCount = 0
+//     let oddCount = 0
+//     while (num > 0) {
+//         let lastDigit = num % 10;
+//         if (lastDigit % 2 == 0) {
+//             evenCount++;
+//         } else {
+//             oddCount++
+//         }
+//         num = Math.floor(num / 10);
+//     }
+//     console.log('Even Count', evenCount);
+//     console.log('Odd Count', oddCount);
+// }
+// evenAndOdd(12368272);
+
+
+
+// Problem: Ek number diya gaya hai.Uske digits ka sum karo, fir us sum ke digits ka sum karo... Ye tab tak repeat karo jab tak ek single digit nahi milta.
+
+// let num = 573
+// while (num > 9) {
+//     let sum = 0;
+//     while (num > 0) {
+//         let lastDigit = num % 10;
+//         sum += lastDigit;
+//         num = Math.floor(num / 10);
+//     }
+//     num = sum
+// }
+// console.log(num)
